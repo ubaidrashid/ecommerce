@@ -1,0 +1,23 @@
+.allProducts{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-block: 50px;
+}
+.featuredContainer{
+    margin-top: 80px;
+    width: 100%;
+    height: 150vh;
+}
+
+.After2{
+    width: 100%;
+    height: 150vh;
+}
+.afterProduct{
+background: url(../../images/afterProduct/newsletter-instagram.png) center center/cover;
+width: 100%;
+height: 70vh;
+
+}

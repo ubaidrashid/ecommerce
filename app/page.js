@@ -1,95 +1,192 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Zapier from "../images/clientImages/zapier.png"
+
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
+    <>
+      <div className="mainHero">
+        <div className="heroText">
+          <span className="welcome">Welcome to chairy</span>
+          <h1 className="heroHead">
+            Best Furniture Collection for your interior.
+          </h1>
+          <button className="heroBtn">
+            Shop Now <span className="heroBtnIcon"></span>
+          </button>
         </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+        <div className="heroImg">
+          <div className="heroImgChild"></div>
+        </div>
+      </div>
+      <div className="clients">
+        <div className="zapier"></div>
+        <div className="pipedrive"></div>
+        <div className="cibBank"></div>
+        <div className="z"></div>
+        <div className="bruntToast"></div>
+        <div className="pandadoc"></div>
+        <div className="moz"></div>
+      </div>
+      <div className="featuredProducts">
+        <div className="featiredcarts">
+          <div className="featiredImg1">
+            <div className="img"><div className="tagNew">new</div></div>
+          </div>
+          <div className="text">
+            <div className="featuredDetails">
+              <div className="featuredName">Library Stool Chair</div>
+              <div className="featuredPrice">$20</div>
+            </div>
+            <div className="featuredCart"></div>
+          </div>
+        </div>
+        <div className="featiredcarts">
+          <div className="featiredImg2">
+            <div className="img"><div className="tagSales">Sales</div></div>
+          </div>
+          <div className="text">
+            <div className="featuredDetails">
+              <div className="featuredName">Library Stool Chair</div>
+              <div className="featuredPrice">$20</div>
+            </div>
+            <div className="featuredCart"></div>
+          </div>
+        </div>
+        <div className="featiredcarts">
+          <div className="featiredImg3">
+            <div className="img"></div>
+          </div>
+          <div className="text"><div className="featuredDetails"><div className="featuredName">Library Stool Chair</div>
+            <div className="featuredPrice">$20</div></div>
+            <div className="featuredCart"></div></div>
+        </div>
+        <div className="featiredcarts">
+          <div className="featiredImg4">
+            <div className="img"></div>
+
+          </div>
+          <div className="text"><div className="featuredDetails"><div className="featuredName">Library Stool Chair</div>
+            <div className="featuredPrice">$20</div></div>
+            <div className="featuredCart"></div></div>
+        </div>
+      </div>
+      <div className="topCatogories">
+        <h1 className="topCatogoriesHead">Top Catogories</h1>
+        <div className="topItems">
+          <div className="topItem1">
+            <div className="topDetails">
+              <h2>Wing Chair</h2>
+              
+              <div className="stock">3,584 Products</div>
+            </div>
+          </div>
+          <div className="topItem2">
+            <div className="topDetails">
+              <h2>Wooden Chair</h2>
+              <div className="stock">157 Products</div>
+            </div>
+          </div>
+          <div className="topItem3">
+            <div className="topDetails">
+              <h2>Desk Chair</h2>
+              <div className="stock">154 Products</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="hotcatogory">
+      </div>
+
+<div className="our">
+<h1 className="ourProducts">Our Products</h1>
+      <div className="featuredProducts After">
+        <div className="featiredcarts">
+          <div className="featiredImg1">
+            <div className="img"><div className="tagNew">new</div></div>
+          </div>
+          <div className="text">
+            <div className="featuredDetails">
+              <div className="featuredName">Library Stool Chair</div>
+              <div className="featuredPrice">$20</div>
+            </div>
+            <div className="featuredCart"></div>
+          </div>
+        </div>
+        <div className="featiredcarts">
+          <div className="featiredImg2">
+            <div className="img"><div className="tagSales">Sales</div></div>
+          </div>
+          <div className="text">
+            <div className="featuredDetails">
+              <div className="featuredName">Library Stool Chair</div>
+              <div className="featuredPrice">$20</div>
+            </div>
+            <div className="featuredCart"></div>
+          </div>
+        </div>
+        <div className="featiredcarts">
+          <div className="featiredImg3">
+            <div className="img"></div>
+          </div>
+          <div className="text"><div className="featuredDetails"><div className="featuredName">Library Stool Chair</div>
+            <div className="featuredPrice">$20</div></div>
+            <div className="featuredCart"></div></div>
+        </div>
+        <div className="featiredcarts">
+          <div className="featiredImg4">
+            <div className="img"></div>
+
+          </div>
+          <div className="text"><div className="featuredDetails"><div className="featuredName">Library Stool Chair</div>
+            <div className="featuredPrice">$20</div></div>
+            <div className="featuredCart"></div></div>
+        </div>
+        <div className="featiredcarts">
+          <div className="featiredImg5">
+            <div className="img"><div className="tagNew">new</div></div>
+          </div>
+          <div className="text">
+            <div className="featuredDetails">
+              <div className="featuredName">Library Stool Chair</div>
+              <div className="featuredPrice">$20</div>
+            </div>
+            <div className="featuredCart"></div>
+          </div>
+        </div>
+        <div className="featiredcarts">
+          <div className="featiredImg6">
+            <div className="img"><div className="tagSales">Sales</div></div>
+          </div>
+          <div className="text">
+            <div className="featuredDetails">
+              <div className="featuredName">Library Stool Chair</div>
+              <div className="featuredPrice">$20</div>
+            </div>
+            <div className="featuredCart"></div>
+          </div>
+        </div>
+        <div className="featiredcarts">
+          <div className="featiredImg7">
+            <div className="img"></div>
+          </div>
+          <div className="text"><div className="featuredDetails"><div className="featuredName">Library Stool Chair</div>
+            <div className="featuredPrice">$20</div></div>
+            <div className="featuredCart"></div></div>
+        </div>
+        <div className="featiredcarts">
+          <div className="featiredImg8">
+            <div className="img"></div>
+
+          </div>
+          <div className="text"><div className="featuredDetails"><div className="featuredName">Library Stool Chair</div>
+            <div className="featuredPrice">$20</div></div>
+            <div className="featuredCart"></div></div>
+        </div>
+      </div>
+</div>
+
+    </>
   );
 }
