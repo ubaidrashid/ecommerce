@@ -1,0 +1,128 @@
+.About {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.aboutMain {
+    display: grid;
+    margin-top: 80px;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    height: 50vh;
+    width: 80%;
+
+}
+
+.Abouttext {
+    background-color: rgb(5 117 131);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100%;
+
+    height: 100%;
+}
+
+.Abouttext h1 {
+    color: white;
+    font-weight: 700;
+}
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Abouttext p {
+    color: white;
+    font-weight: 400;
+    /* line-height: 1.5; */
+    font-size: 17px;
+}
+
+.viewCollection button {
+    height: 50px;
+    width: 30%;
+    background-color: rgba(249, 249, 249, 0.15);
+    color: white;
+    font-weight: 600;
+    font-family: "inter", serif;
+    outline: none;
+    border: none;
+}
+
+.viewCollection button:hover {
+    cursor: pointer;
+    background-color: rgba(249, 249, 249, 0.266);
+
+
+}
+
+.AboutImg {
+    height: 100%;
+    width: 100%;
+    background: url(../../images/Image-13.png)center center/cover;
+}
+
+.AfterAboutMain {
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-block: 40px;
+}
+
+.AfterAboutMain h1 {
+    font-size: 1.8rem;
+}
+
+.afterMainGrid {
+    height: 30vh;
+
+    width: 100%;
+    background: url(../../images/AfterMainGrid/Group\ 163.png) center center/cover;
+}
+
+.ourProducts {
+    display: flex;
+    margin-block: 40px;
+    flex-direction: column;
+    gap: 30px;
+    width: 80%;
+}
+.ourproductsGrid{
+    height: 63vh;
+    width: 100%;
+
+    display: flex;
+    gap: 10px;
+
+}
+.productCart1{
+
+    height: 100%;
+    width: 50%;
+    background: url(../../images/ourProductGrid/productCard1.png) center center/cover;
+    background-repeat: no-repeat;
+}
+.productCart2{
+    background: url(../../images/ourProductGrid/poductcard2.png) center center/cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 25%;
+}
+.productCart3{
+    background: url(../../images/ourProductGrid/productCard3.png) center center/cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 25%;
+
+}

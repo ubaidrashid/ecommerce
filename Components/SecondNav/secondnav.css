@@ -19,16 +19,24 @@
     width: 50%;
 }
 .active {
-    color: rgba(0, 117, 128, 1);
-    text-shadow: 0px 0px 1px rgba(0, 117, 128, 1);
 }
- li {
+li {
     list-style: none;
     font-weight: 500;
     color: rgba(99, 98, 112, 1);;
     font-size: 15px;
     
 }
+li:hover{
+    color: black;
+    cursor: pointer;
+}
+li:focus{
+    text-shadow: 0px 0px 1px rgba(0, 117, 128, 1);
+    color: rgba(0, 117, 128, 1);
+
+}
+
 
 .SecondContact{
     width: 50%;
@@ -37,4 +45,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+li a{
+    color: #636270;
+    text-decoration: none;
 }

@@ -10,7 +10,7 @@ function SecondNav() {
                 <li>Shop</li>
                 <li><Link href="/AllProduct/">Product</Link></li>
                 <li>Pages</li>
-                <li>About</li>
+                <li><Link href="/About">About</Link></li>
             </div>
             <div className="SecondContact">
             Contact: <b>(808) 555-0111</b>
